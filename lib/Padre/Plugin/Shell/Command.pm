@@ -7,8 +7,9 @@ use warnings;
 use Padre::Constant ();
 use Padre::Current  ();
 use Padre::Wx       ();
+use File::Which;
 
-our $VERSION = '0.25';
+our $VERSION = '0.26';
 
 my %actions = (
     append  => 1,
@@ -69,7 +70,7 @@ sub get_cmd {
 sub run_command {
     my ( $self, $action ) = @_;
 
-    my $editor = $self->current->editor;
+    my $editor = Padre::Current->editor or return;
     $editor->Freeze;
 
     $self->update_environment_vars($editor);

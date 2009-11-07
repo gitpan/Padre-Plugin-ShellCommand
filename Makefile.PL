@@ -17,6 +17,7 @@ WriteMakefile(
     PL_FILES            => {},
     PREREQ_PM => {
         'Test::More' => 0,
+        'File::Which' => 0,
         'Padre'      => 0.43,
         'Padre::Plugin::Shell::Base' => 0,
     },

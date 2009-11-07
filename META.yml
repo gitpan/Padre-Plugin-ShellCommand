@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Padre-Plugin-ShellCommand
-version:            0.25
+version:            0.26
 abstract:           A Shell Command plug-in
 author:
     - Gregory Siems <gsiems@gmail.com>
@@ -11,6 +11,7 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
+    File::Which:          0
     Padre:                0.43
     Padre::Plugin::Shell::Base:  0
     Test::More:           0

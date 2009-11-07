@@ -1,4 +1,9 @@
 Revision history for Padre-Plugin-ShellCommand
 
+0.25    Thu Nov  5 22:19:30 CST 2009
+        - Bug fix for running commands from a new, as yet unnamed, document.
+        - Added option to create a new document with the command output.
+        - Uses Padre-Plugin-Shell-Base
+
 0.2     Sun Oct 11 19:55:47 CDT 2009
         First version, released on an unsuspecting world.

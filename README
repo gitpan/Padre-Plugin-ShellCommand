@@ -18,12 +18,6 @@ To install this module, run the following commands:
 	make test
 	make install
 
-LIMITATIONS
-===========
-
-This plug-in will not work on operating systems that do not have an appropriate 
-shell environment (such as MS Windows).
-
 SUPPORT AND DOCUMENTATION
 =========================
 
@@ -45,7 +39,6 @@ You can also look for information at:
 
     Search CPAN
         http://search.cpan.org/dist/Padre-Plugin-ShellCommand/
-
 
 COPYRIGHT AND LICENCE
 =====================

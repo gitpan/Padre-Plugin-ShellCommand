@@ -9,7 +9,7 @@ use Padre::Current  ();
 use Padre::Wx       ();
 use File::Which;
 
-our $VERSION = '0.26';
+our $VERSION = '0.27';
 
 my %actions = (
     append  => 1,
@@ -138,7 +138,7 @@ __END__
 
 =head1 NAME
 
-Padre::Plugin::Shell::Command - A Shell Command plug-in
+Padre::Plugin::Shell::Command - The Shell Command plug-in functions
 
 =head1 DESCRIPTION
 
@@ -269,13 +269,6 @@ Returns a menu items for the plugin.
 =head2 run_command ($action)
 
 Runs the command and performs the appropriate $action with the result.
-
-=head1 ISSUES
-
-When adding entries to the configuration file it appears to be necessary 
-to have an empty line at the end of the file in order for the configuration 
-to properly load. No properly loaded configuration results in no menu 
-for the plug-in.
 
 =head1 LIMITATIONS
 

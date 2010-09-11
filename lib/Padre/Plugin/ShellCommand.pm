@@ -8,7 +8,7 @@ use Padre::Plugin ();
 use Padre::Wx     ();
 use Padre::Plugin::Shell::Command;
 
-our $VERSION = '0.26';
+our $VERSION = '0.27';
 
 my $command_plugin;
 
